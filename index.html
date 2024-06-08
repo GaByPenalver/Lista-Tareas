@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Lista de Tareas</h1>
+        <div class="ctn-form-group">
+            <div class="form-group">
+                <label for="">Nueva tarea</label>
+                <input type="text" id="value-nt" required />
+                <button id="btn-add">Agregar</button>
+            </div>
+        </div>
+        <div class="ctn-text">
+            <div class="ctn-right">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Borrar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
